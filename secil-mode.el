@@ -232,7 +232,7 @@
                                           "mlsvalidatetrans"))
              (cil-container-statements '("block" "blockabstract"
                                          "blockinherit" "optional"
-                                         "in"))
+                                         "in" "in after" "in before"))
              (cil-context-statement '("context"))
              (cil-default-object-statements '("defaultuser"
                                               "defaultrole"
@@ -434,7 +434,8 @@
 	"neq" "not" "all" "dom" "domby" "incomp" "range" "r1" "r2"
 	"r3" "t1" "t2" "t3" "u1" "u2" "u3" "l1" "l2" "h1" "h2"
 	"string" "dccp" "sctp" "tcp" "udp" "task" "trans" "xattr"
-	"self" "low" "high" "low_high" "glblub" "source" "target"))
+	"self" "low" "high" "low_high" "glblub" "source" "target"
+	"in after" "in before"))
 
 (defun cil-complete-symbol ()
   "Perform keyword completion on current symbol.
