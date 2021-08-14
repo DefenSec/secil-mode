@@ -230,9 +230,9 @@
                                           "validatetrans"
                                           "mlsconstrain"
                                           "mlsvalidatetrans"))
-             (cil-container-statements '("after" "before" "block"
-					 "blockabstract" "blockinherit"
-					 "optional" "in"))
+             (cil-container-statements '("block" "blockabstract"
+                                         "blockinherit" "optional"
+                                         "in"))
              (cil-context-statement '("context"))
              (cil-default-object-statements '("defaultuser"
                                               "defaultrole"
@@ -407,8 +407,8 @@
 ;;; command completion with ido
 (require 'ido)
 (setq cil-keywords
-      '("after" "allow" "auditallow" "before" "deny" "dontaudit" "neverallow"
-	"allowx" "auditallowx" "dontauditx" "neverallowx" "call" "macro"
+      '("allow" "auditallow" "deny" "dontaudit" "neverallow" "allowx"
+        "auditallowx" "dontauditx" "neverallowx" "call" "macro"
         "common" "classcommon" "class" "classorder" "classpermission"
         "classpermissionset" "classmap" "classmapping" "permissionx"
         "boolean" "booleanif" "tunable" "tunableif" "constrain"
